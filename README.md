@@ -1,5 +1,5 @@
 # STM32 Microcontroller Custom Bootloader
-The STM32 Microcontroller Bootloader is a robust and versatile firmware solution designed to simplify the software update process for STM32 microcontrollers. It offers support for both USART and CAN communication protocols, providing flexibility to accommodate a wide range of hardware configurations and use cases.
+The STM32 Microcontroller Bootloader is a robust and versatile firmware solution designed to simplify the software update process for STM32 microcontrollers. This offers support for both USART and CAN communication protocols, providing flexibility to accommodate a wide range of hardware configurations and use cases.
 
 In addition, this project includes a Qt C++ Graphical User Interface (GUI) application that enhances the bootloader's functionality. This GUI facilates the process of flashing images to the STM32 microcontroller, making the software update procedure even more user-friendly.
 
@@ -64,7 +64,7 @@ In addition, this project includes a Qt C++ Graphical User Interface (GUI) appli
 ## Getting start with USART Bootloader
 1. Clone the repository to your development environment
 ```bash
-   git clone github.com/AhmedAbd-ElFattah/STM32-Custom-Bootloader
+   git clone https://github.com/Ragu-programmer/Custom-Bootloader-for-STM-32-MCU.git
 ```
 2. Configure Bootloader-type to USART by editing "BL_Config.h" file and define " BOOTLOADER_TYPE " with " USART_BOOTLOADER " value.
 3. Assign appropriate configiration of USART connection, baudrate and so on if needed and the same for DMA.
