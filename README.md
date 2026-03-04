@@ -33,7 +33,7 @@ In addition, this project includes a Qt C++ Graphical User Interface (GUI) appli
 ## Getting start with CAN Bootloader
 1. Clone the repository to your development environment
 ```bash
-   git clone github.com/AhmedAbd-ElFattah/STM32-Custom-Bootloader
+   git clone https://github.com/Ragu-programmer/Custom-Bootloader-for-STM-32-MCU.git
 ```
 2. Configure Bootloader-type to CAN by editing "BL_Config.h" file and define " BOOTLOADER_TYPE " with " USART_BOOTLOADER " value.
 3. Assign appropriate configiration of CAN connection, baudrate and so on if needed.
